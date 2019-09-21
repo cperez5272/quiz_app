@@ -10,17 +10,29 @@
   <script src="quiz.js"></script>
 </head>
 <body>
-    <header class="starting-header">
+
+    <header class="starting_header">
         <h1>Know Your Jojo!</h1>
-        <p>Oh ho! Then come and show me what you got.</p>
-    </header>
-    <header class="question-box">
-        <h2>This is where the question belongs</h2>
-            <li>Answer A</li>
-            <li>Answer B</li>
-            <li>Answer C</li>
-            <li>Answer D</li>
+        <img src="https://media2.giphy.com/media/h9rBcBywX895S/giphy.gif?cid=790b761119e4031d6b885c31bd7e613ba793809d537b4f25&rid=giphy.gif" alt= "Two muscular gentlemen summon their own spirits and begun launching a barrage of punches toward each other." width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></img>
     </header>
 
+    <section class="scoreboard">       
+            <p class="tally"> Question: <span class="question_number">0</span>/10 <span>Score: </span><span class="score_number">0</span></p>     
+    </section>
+
+    <header class="starting_quiz">
+        <h2>You think you got what it takes? If you can pass this then you surely have the IQ to understand what  happened at the streets of Philadelphia from 3:59 to 4:13.</h2>
+        <button>Start Quiz</button>
+    </header>
+
+    <div class="quiz_container">
+        <h1 class="question_display"></h1>
+        <form class="answer_form">
+            <div class="answer answer_1"></div>
+            <div class="answer answer_2"></div>
+            <div class="answer answer_3"></div>
+            <div class="answer answer_4"></div>
+        </form>
+    </div>
 </body>
 </html>
