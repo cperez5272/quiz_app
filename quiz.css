@@ -6,7 +6,21 @@ body {
     background-image: url("https://i.kym-cdn.com/photos/images/original/001/169/088/c15.png");
     background: cover; 
 }
+button {
+    padding: 15px;
+    background: orange;
+    border: black solid;
+    font-weight: 800;
+    text-align: center;
+    margin-top: px;
+    margin: auto;
+    position: absolute;
+    left: 45%;
+    bottom: 7%;
 
+}
+
+/* css for quiz.html */
 .starting_header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -16,24 +30,83 @@ body {
     margin-top: -21px;
     color: whitesmoke;
 }
-
-.scoreboard p {
-    font-size: 1cm;
-    margin: auto;
-    text-align: center;
-    color: whitesmoke;
-}
-
-button {
-    background: orange;
-    border: black solid 1px;
-    height: 45px;
-    font-weight: 800;
-}
 .starting_quiz {
     text-align: center;
     color: whitesmoke;
     width: 90%;
     height: 90%;
     margin: auto;
+}
+/* css for question.html */
+.question_time {
+    color: whitesmoke;
+    text-align: center;
+    background-color: grey;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 40px;
+    width: 95%;
+    height: 95%;
+}
+.scoreboard p {
+    font-size: 1cm;
+    text-align: center;
+    color: whitesmoke;
+    background-color: grey;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 90%;
+    width: 90%
+}
+.answer_sheet {
+    text-align: center;
+    background-color: grey;
+    color: whitesmoke;
+    margin: auto;
+    height: 95%;
+    width: 95%;
+    padding: 40px;
+
+}
+
+/* css for right-or-wrong.html */
+
+.right_wrong {
+color: whitesmoke;
+text-align: center;
+background-color: grey;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+padding: 40px;
+width: 60%;
+height: 95%;
+}
+
+.right_wrong_text {
+text-align: center;
+color: whitesmoke;
+background-color: grey;
+margin: auto;
+padding: 40px;
+margin-bottom: 40px;
+height: 90%;
+width: 90%
+}
+
+
+/* css for results.html */
+
+.scoreboard p {
+    font-size: 1cm;
+    text-align: center;
+    color: whitesmoke;
+    background-color: grey;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 90%;
+    width: 90%
 }

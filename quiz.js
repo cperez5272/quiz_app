@@ -112,7 +112,7 @@ function startQuiz () {
  $('button').click('submit', function (event) {
     console.log('button working');
     // event.preventDefault();
-    $('header').fadeOut('fast');
+    // $('header').fadeOut('fast');
     renderQuestion();
  }
     )}
